@@ -39,4 +39,4 @@ production:
   pool: 5
   username: <%= ENV["DB_HISHO_PRO_USER"] %>
   password: <%= ENV["DB_HISHO_PRO_PASS"] %>
-  socket: <%= ENV["DB_HISHO_TEST_SOCK"] %>
+  socket: <%= ENV["DB_HISHO_PRO_SOCK"] %>
